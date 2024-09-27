@@ -1,0 +1,88 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(244, 244, 249, 0.24);
+}
+
+.cabecalho {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cabecalho nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.cabecalho nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.produto img {
+    width: 10rem;
+    height: 12rem;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.produto h3 {
+    margin: 10px 0;
+}
+
+.preco {
+    font-weight: bold;
+    color: #2a8fbd;
+}
+
+button {
+    background-color: #2a8fbd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #217a9c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
